@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Coroutines_Example</string>
+    <string name="txt_this_my_name">This is my name</string>
+    <string name="txt_this_my_content">This is my content</string>
+    <string name="txt_this_my_title">This is my title</string>
+</resources>
