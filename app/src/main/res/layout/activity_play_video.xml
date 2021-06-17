@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg"
+    android:background="@color/bg_1"
     tools:context=".get_video_on_drive.video.PlayVideoActivity">
 
     <hb.xvideoplayer.MxVideoPlayerWidget

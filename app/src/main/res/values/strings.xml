@@ -3,4 +3,10 @@
     <string name="txt_this_my_name">This is my name</string>
     <string name="txt_this_my_content">This is my content</string>
     <string name="txt_this_my_title">This is my title</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">This is Fragment</string>
+    <string name="txt_direction">Direction</string>
+    <string name="txt_orientation">Orientation</string>
+    <string name="txt_page_transformer">Page Transformer</string>
+    <string name="txt_view_pager_2"> Demo View Pager 2</string>
 </resources>

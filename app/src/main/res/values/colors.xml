@@ -8,5 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="trans">#00000000</color>
-    <color name="bg">#403636</color>
+    <color name="bg_1">#03A9F4</color>
+    <color name="bg_2">#FFEB3B</color>
+    <color name="bg_3">#F44336</color>
 </resources>

@@ -54,6 +54,7 @@ dependencies {
 
     //slide image show
     implementation 'com.github.denzcoskun:ImageSlideshow:0.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     compile 'jp.wasabeef:blurry:4.0.0'
     //library TedPermission
     implementation 'gun0912.ted:tedpermission:2.2.3'
@@ -65,6 +66,10 @@ dependencies {
 
     //import Glide library
     implementation 'com.github.bumptech.glide:glide:4.12.0'
+
+    //import ViewPager2 Library
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
+
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'

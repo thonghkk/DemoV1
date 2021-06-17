@@ -66,7 +66,6 @@ class CustomSlideActivity : AppCompatActivity() {
                             viewPager.currentItem = 0
                         }
                     }
-
                 })
             }
 
