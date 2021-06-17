@@ -19,11 +19,11 @@ class VideoAdapter(private val videos:List<Video>):RecyclerView.Adapter<VideoAda
         val imgVideo = view.findViewById<ImageView>(R.id.imgVideo)
         val mLayoutItem = view.findViewById<RelativeLayout>(R.id.mLayoutItem)
         fun bindVideoItem(video:Video){
-            Glide.with(itemView.context).load(video.thumb).into(imgVideo)
+            Glide.with(itemView.context).load(video.path).into(imgVideo)
             mLayoutItem.setOnClickListener {
                 val intent = Intent(itemView.context,PlayVideoActivity::class.java)
-                intent.putExtra("thumb",video.path)
-                intent.putExtra("path",video.thumb)
+                intent.putExtra("thumb",video.thumb)
+                intent.putExtra("path",video.path)
                 itemView.context.startActivity(intent)
             }
         }

@@ -73,7 +73,7 @@ class PageRecycleViewBottomActivity : AppCompatActivity() {
     /*
     * Load data page 1
     * */
-    fun setFirstData() {
+    private fun setFirstData() {
         listModels = getListModel()
         mViewPageTypeTwoAdapter = ViewPageTypeTwoAdapter(listModels)
         if (currentPage < totalPage) {
@@ -83,7 +83,7 @@ class PageRecycleViewBottomActivity : AppCompatActivity() {
         }
     }
 
-    fun getListModel(): MutableList<Model> {
+    private fun getListModel(): MutableList<Model> {
         val list = mutableListOf<Model>()
         for (i in 0 until 10) {
             list.add(Model(""))

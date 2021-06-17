@@ -8,7 +8,7 @@
     android:layout_gravity="center"
     android:gravity="center|top"
     android:orientation="vertical"
-    tools:context=".slide_image.SlideImageActivity">
+    tools:context=".slide_image_with_library.SlideImageActivity">
 
     <SearchView
         android:layout_width="match_parent"

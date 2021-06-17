@@ -11,7 +11,7 @@ abstract class PaginationScroll(private var mLinearLayoutManager: LinearLayoutMa
         super.onScrolled(recyclerView, dx, dy)
         val visibleItemCount = mLinearLayoutManager.childCount
         val totalItemsCount = mLinearLayoutManager.itemCount
-        val firstVisibleItemPosition = mLinearLayoutManager.findFirstVisibleItemPosition()
+        val firstVisibleItemPosition = mLinearLayoutManager.findFirstVisibleItemPosition ()
 
         if (isLoading() || isLastPage()){
             return
