@@ -18,23 +18,42 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Coroutines_Example">
+
+         <!-- Custom ViewType 2 -->
         <activity android:name=".page_recycle_view_type_2.PageRecycleViewBottomActivity">
+
+        </activity>
+        <!-- Custom ViewType 1 -->
+        <activity android:name=".page_recycle_view_type_1.PageRecycleViewActivity">
+
+        </activity>
+        <!-- Handling Animation -->
+        <activity android:name=".animation.AnimationActivity" /> <!-- Play All Video on Device -->
+        <activity
+            android:name=".get_video_on_drive.video.PlayVideoActivity"
+            android:theme="@style/NoActionBar" /> <!-- Get All Video on Device -->
+        <activity
+            android:name=".get_video_on_drive.GetAllVideo"
+            android:theme="@style/NoActionBar">
+
+        </activity>
+        <!-- Custom Slide Image with library -->
+        <activity android:name=".slide_image_with_library.SlideImageActivity">
+
+        </activity>
+        <!-- Custom Slide Image  -->
+        <activity android:name=".slide_image_custom.CustomSlideActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".page_recycle_view_type_1.PageRecycleViewActivity">
 
-        </activity>
-        <activity android:name=".animation.AnimationActivity" />
-        <activity android:name=".get_video_on_drive.video.PlayVideoActivity" />
-        <activity android:name=".get_video_on_drive.GetAllVideo"></activity>
-        <activity android:name=".slide_image.SlideImageActivity" />
-        <activity android:name=".notification.NotificationActivity" />
-        <activity android:name=".CoroutineActivity" />
-        <activity android:name=".recycle_view.MainActivity" />
+        <!-- Handling Notification -->
+        <activity android:name=".notification.NotificationActivity" /> <!-- Handling Coroutine -->
+        <activity android:name=".CoroutineActivity" /> <!-- Main Activity -->
+        <activity android:name=".recycle_view.MainActivity" /> <!-- Demo Coroutine -->
         <activity android:name=".coutinescontext.DemoCoroutineScope" />
     </application>
 
