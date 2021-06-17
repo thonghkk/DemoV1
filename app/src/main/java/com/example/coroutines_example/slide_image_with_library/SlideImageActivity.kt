@@ -1,17 +1,18 @@
-package com.example.coroutines_example.slide_image
+package com.example.coroutines_example.slide_image_with_library
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.transition.Slide
 import android.widget.LinearLayout
-import com.bumptech.glide.Glide
 import com.denzcoskun.imageslider.ImageSlider
 import com.denzcoskun.imageslider.constants.ScaleTypes
 import com.denzcoskun.imageslider.models.SlideModel
 import com.example.coroutines_example.R
 import jp.wasabeef.blurry.Blurry
 
+/*
+ * use library : "https://github.com/denzcoskun/ImageSlideshow"
+ * */
 class SlideImageActivity : AppCompatActivity() {
     private lateinit var mImageSlider:ImageSlider
     private lateinit var mBackground:LinearLayout
@@ -35,8 +36,5 @@ class SlideImageActivity : AppCompatActivity() {
             .async()
             .animate(500)
             .capture(mBackground)
-
-
-
     }
 }
