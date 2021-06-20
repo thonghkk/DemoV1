@@ -39,7 +39,7 @@ class ViewPagerActivity : AppCompatActivity() {
 
         //assign value default to RadioButton
         rdg1.check(R.id.rdb_leftToRight)
-        rdg2.check(R.id.rdb_vertical)
+        rdg2.check(R.id.rdb_horizontal)
         rdg3.check(R.id.rdb_normal)
 
         viewPager2Adapter = ViewPager2Adapter(this)

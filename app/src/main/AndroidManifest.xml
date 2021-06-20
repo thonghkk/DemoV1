@@ -18,41 +18,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Coroutines_Example">
-        <!-- How to handling Version ViewPager 2 -->
-        <activity android:name=".demo_view_pager_2.ViewPagerActivity" android:label="@string/txt_view_pager_2">
+        <!-- How to save  fragment's state when it state change -->
+        <activity android:name=".save_status_of_fragment.MainSaveActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- How to handling Version ViewPager 2 -->
+        <activity
+            android:name=".demo_view_pager_2.ViewPagerActivity"
+            android:label="@string/txt_view_pager_2">
 
-        <activity android:name=".page_recycle_view_type_2.PageRecycleViewBottomActivity"></activity> <!-- Custom ViewType 2 -->
-        <activity android:name=".page_recycle_view_type_1.PageRecycleViewActivity"></activity> <!-- Custom ViewType 1 -->
-        <activity android:name=".animation.AnimationActivity" />  <!-- Handling Animation -->
+        </activity>
+        <activity android:name=".page_recycle_view_type_2.PageRecycleViewBottomActivity" /> <!-- Custom ViewType 2 -->
+        <activity android:name=".page_recycle_view_type_1.PageRecycleViewActivity" /> <!-- Custom ViewType 1 -->
+        <activity android:name=".animation.AnimationActivity" /> <!-- Handling Animation -->
         <activity
             android:name=".get_video_on_drive.video.PlayVideoActivity"
             android:theme="@style/NoActionBar" /> <!-- Play All Video on Device -->
-
         <activity
             android:name=".get_video_on_drive.GetAllVideo"
-            android:theme="@style/NoActionBar">
-
-        </activity> <!-- Get All Video on Device -->
-
-        <activity android:name=".slide_image_with_library.SlideImageActivity">
-
-        </activity> <!-- Custom Slide Image with library -->
-
-        <activity android:name=".slide_image_custom.CustomSlideActivity">
-
-        </activity>  <!-- Custom Slide Image -->
-
-        <activity android:name=".notification.NotificationActivity" /><!-- Handling Notification -->
-
-        <activity android:name=".CoroutineActivity" />  <!-- Handling Coroutine -->
-        <activity android:name=".recycle_view.MainActivity" /><!-- Main Activity -->
-        <activity android:name=".coutinescontext.DemoCoroutineScope" />  <!-- Demo Coroutine -->
+            android:theme="@style/NoActionBar"></activity> <!-- Get All Video on Device -->
+        <activity android:name=".slide_image_with_library.SlideImageActivity"></activity> <!-- Custom Slide Image with library -->
+        <activity android:name=".slide_image_custom.CustomSlideActivity"></activity> <!-- Custom Slide Image -->
+        <activity android:name=".notification.NotificationActivity" /> <!-- Handling Notification -->
+        <activity android:name=".CoroutineActivity" /> <!-- Handling Coroutine -->
+        <activity android:name=".recycle_view.MainActivity" /> <!-- Main Activity -->
+        <activity android:name=".coutinescontext.DemoCoroutineScope" />
     </application>
 
 </manifest>

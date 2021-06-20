@@ -4,14 +4,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_3"
-    tools:context=".demo_view_pager_2.fragment.ThirdFragment">
+    android:orientation="vertical"
+    tools:context=".fragment.ThirdFragment">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
         android:gravity="center"
+        android:padding="20dp"
         android:text="@string/hello_blank_fragment"
         android:textColor="@color/white"
         android:textSize="20sp" />
 
+    <Button
+        android:id="@+id/mBtnBackFm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/bg_2"
+        android:text="Back" />
 </LinearLayout>

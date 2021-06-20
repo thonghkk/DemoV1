@@ -4,14 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_1"
-    tools:context=".demo_view_pager_2.fragment.FirstFragment">
+    tools:context=".fragment.FirstFragment">
 
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mRecycleViewSaveStatus"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="@string/hello_blank_fragment"
-        android:textColor="@color/white"
-        android:textSize="20sp" />
+        android:layout_height="match_parent"/>
 
 </LinearLayout>

@@ -1,3 +1,5 @@
 package com.example.coroutines_example.model
 
-class Model(val title: String? = "", val description: String? = "")
+import java.io.Serializable
+
+class Model(val title: String? = "", val description: String? = ""):Serializable
