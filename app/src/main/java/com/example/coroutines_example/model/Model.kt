@@ -4,3 +4,4 @@ import java.io.Serializable
 
 class Model(val title: String? = "", val description: String? = ""):Serializable
 class Model1(val title: String? = "", val description: String? = ""):Serializable
+class Model2(val title: String? = "", val description: String? = ""):Serializable
